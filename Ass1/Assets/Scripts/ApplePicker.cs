@@ -8,34 +8,50 @@ public class ApplePicker : MonoBehaviour {
 	public int numBaskets = 3;
 	public float basketBottonY = -14f;
 	public float basketSpacingY = 2f;
+	public List<GameObject> basketList;
 
 	// Use this for initialization
 	void Start () 
 	{
+		basketList = new List<GameObject> ();
 		for (int i = 0; i < numBaskets; i++) 
 		{
 			GameObject tBasketGO = Instantiate (basketPrefab) as GameObject;
 			Vector3 pos = Vector3.zero;
 			pos.y = basketBottonY + (basketSpacingY * i);
 			tBasketGO.transform.position = pos;
+			basketList.Add (tBasketGO);
 		}
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
-		// Get the current screen position of the mouse from Input
-		Vector3 mousePos2D = Input.mousePosition; //1
+		
+	}
 
-		//The Camera's z position sets how far to push the mouse into 3d
-		mousePos2D.z = -Camera.main.transform.position.z; //2
+	public void AppleDestroyed ()
+	{
+		////Destroy all of the falling apples
+		GameObject[] tAppleArray=GameObject.FindGameObjectsWithTag("Apple");
+		foreach (GameObject tGO in tAppleArray) 
+		{
+			Destroy (tGO);
+		}
 
-		//Convert the point from 2D screen space into 3D game world space
-		Vector3 mousePos3D = Camera.main.ScreenToWorldPoint(mousePos2D); //3
+		//Destroy one of the baskets
+		//Get the index of the last basket in the basket List
+		int basketIndex = basketList.Count -1;
+		//Get a reference to that Basket GameObject
+		GameObject tBasketGO = basketList[basketIndex];
+		//Remove the Basket from the List and destroy the GameObject
+		basketList.RemoveAt(basketIndex);
+		Destroy (tBasketGO);
 
-		//Move the x position of this Basket to the x position of the Mouse
-		Vector3 pos = this.transform.position;
-		pos.x = mousePos3D.x;
-		this.transform.position = pos;
+		//Restart the game, which doesn't affect HighScore.Score
+		if (basketList.Count == 0)
+		{
+			Application.LoadLevel ("_Scene_0");
+		}
 	}
 }
