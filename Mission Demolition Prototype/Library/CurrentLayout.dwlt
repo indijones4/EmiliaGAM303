@@ -108,7 +108,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 1
-  controlID: 297
+  controlID: 2881
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 298
+  controlID: 2882
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 201
+  controlID: 2860
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -367,7 +367,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 88f9ffff1afcffff00000000
+    m_ExpandedIDs: a466ffff1afcffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -428,20 +428,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/Materials
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\ultimo.media\Desktop\EmiliaGAM303\Mission Demolition
     Prototype
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a6260000
-    m_LastClickedID: 9894
-    m_ExpandedIDs: 000000001a260000ffffff7f
+    m_SelectedIDs: b0260000
+    m_LastClickedID: 9904
+    m_ExpandedIDs: 000000001c260000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -469,7 +469,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001a260000ffffff7f
+    m_ExpandedIDs: 000000001c260000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -577,14 +577,14 @@ MonoBehaviour:
     width: 1038
     height: 927
   m_SceneLighting: 1
-  lastFramingTime: 631.6080103589377
+  lastFramingTime: 2290.7172756829164
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -17.25419, y: -12.954229, z: 10.677584}
+    m_Target: {x: 47.89289, y: 75.970146, z: -5.508545}
     speed: 2
-    m_Value: {x: -17.25419, y: -12.954229, z: 10.677584}
+    m_Value: {x: 47.89289, y: 75.970146, z: -5.508545}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -607,18 +607,18 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.2627495, y: 0.56714016, z: -0.19732442, w: -0.7552536}
+    m_Target: {x: 0.008686603, y: -0.029082727, z: -0.00025137232, w: -0.9995436}
     speed: 2
-    m_Value: {x: -0.2627495, y: 0.56714016, z: -0.19732442, w: -0.7552536}
+    m_Value: {x: 0.008686603, y: -0.029082727, z: -0.00025137232, w: -0.99954367}
   m_Size:
-    m_Target: 58.51798
+    m_Target: 147.53061
     speed: 2
-    m_Value: 58.51798
+    m_Value: 147.53061
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
-  m_LastSceneViewRotation: {x: -0.084963165, y: 0.8337885, z: -0.13396585, w: -0.5288018}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
