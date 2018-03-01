@@ -16,9 +16,9 @@ public class Goal : MonoBehaviour {
 			//If so, set goalMet to true
 			Goal.goalMet = true;
 			//Also set the alpha of the colour to higher opacity
-			//Color c = GetComponent<Material.GetColor()>;
-			//c.a = 1;
-			//renderer.GetComponent<Material.SetColor("_Color",)> = c;
+			Color c = GetComponent<Renderer>().material.color;
+			c.a = 1;
+			GetComponent<Renderer> ().material.color = c;
 		}
 	}
 }

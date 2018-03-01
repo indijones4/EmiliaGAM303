@@ -51,6 +51,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Class3.cs" />
+     <Compile Include="Assets\Collections.cs" />
+     <Compile Include="Assets\Person.cs" />
      <Compile Include="Assets\Scripts\CloudCrafter.cs" />
      <Compile Include="Assets\Scripts\FollowCam.cs" />
      <Compile Include="Assets\Scripts\Goal.cs" />

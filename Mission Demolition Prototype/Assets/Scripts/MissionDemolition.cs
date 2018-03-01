@@ -18,9 +18,8 @@ public class MissionDemolition : MonoBehaviour {
 	public GUIText gtScore; // The GT_Score GUIText
 	public Vector3 castlePos; // The place to put castles
 
-	public bool __________________________;
-
 	//fields set dynamically
+	[Header("Don't assign")]
 	public int level; // The current level
 	public int levelMax; //THe number of levels
 	public int shotsTaken;

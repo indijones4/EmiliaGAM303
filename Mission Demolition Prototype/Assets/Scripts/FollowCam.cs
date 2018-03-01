@@ -9,9 +9,9 @@ public class FollowCam : MonoBehaviour
 	//fields set in the Unity Inspector pane
 	public float easing = 0.05f;
 	public Vector2 minXY;
-	public bool 	_____________________________;
 
 	//fields set dynamically
+	[Header("Don't assign")]
 	public GameObject poi; //the point of interest
 	public float camZ; //The desired z pos of the camera
 

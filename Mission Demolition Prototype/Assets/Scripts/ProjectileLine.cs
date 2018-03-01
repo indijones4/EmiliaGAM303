@@ -10,6 +10,7 @@ public class ProjectileLine : MonoBehaviour {
 	public float minDist = 0.1f;
 
 	//fields set dynamically
+	[Header("Don't assign")]
 	public LineRenderer line;
 	private GameObject _poi;
 	public List<Vector3> points;

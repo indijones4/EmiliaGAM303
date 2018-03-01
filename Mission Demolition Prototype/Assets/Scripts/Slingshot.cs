@@ -9,8 +9,9 @@ public class Slingshot : MonoBehaviour {
 	//fields set in the Unity Inspector pane
 	public GameObject prefabProjectile;
 	public float velocityMult = 4f;
-	public bool _____________________________;
+
 	//fields set dynamically
+	[Header("Don't assign")]
 	public GameObject launchPoint;
 	public Vector3 launchPos;
 	public GameObject projectile;

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -684,7 +684,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   easing: 0.05
   minXY: {x: 0, y: 0}
-  _____________________________: 0
   poi: {fileID: 0}
   camZ: 0
 --- !u!114 &1211763710
@@ -731,7 +730,6 @@ MonoBehaviour:
   gtLevel: {fileID: 712820801}
   gtScore: {fileID: 252541616}
   castlePos: {x: 50, y: -9.5, z: 0}
-  __________________________: 0
   level: 0
   levelMax: 0
   shotsTaken: 0
@@ -955,8 +953,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabProjectile: {fileID: 1053953990714844, guid: ea868e3962d0995458d64ef38e7596f6,
     type: 2}
-  velocityMult: 10
-  _____________________________: 0
+  velocityMult: 15
   launchPoint: {fileID: 0}
   launchPos: {x: 0, y: 0, z: 0}
   projectile: {fileID: 0}
